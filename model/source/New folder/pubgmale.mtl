@@ -1,0 +1,28 @@
+# Exported from 3D Builder
+
+newmtl JoinedMaterial_#9_0
+Kd 0.000000 0.000000 0.000000
+
+newmtl Mat_0
+Kd 1.000000 1.000000 1.000000
+map_Kd m_legs_pu_01_dout.png
+
+newmtl Mat_1
+Kd 1.000000 1.000000 1.000000
+map_Kd m_belt_d_01_dout.png
+
+newmtl Mat_2
+Kd 1.000000 1.000000 1.000000
+map_Kd m_body_d_01_dout.png
+
+newmtl Mat_3
+Kd 1.000000 1.000000 1.000000
+map_Kd m_feet_tw_01_left_dout.png
+
+newmtl Mat_4
+Kd 1.000000 1.000000 1.000000
+map_Kd m_basebody_01_dout.png
+
+newmtl Mat_5
+Kd 1.000000 1.000000 1.000000
+map_Kd f_head_g_01_d.png
