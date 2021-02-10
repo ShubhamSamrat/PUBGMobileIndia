@@ -257,14 +257,16 @@ const animate = function () {
 	if(k==W ||k==S||k==A||k==D){
 		if(k == A){ // rotate left
 			//position.x = posX - 80; 
-			characterWalk.bodyOrientation = 360;
-			characterIdle.bodyOrientation = 360;
+			//characterWalk.bodyOrientation = 360;
+			//characterIdle.bodyOrientation = 360;
 			characterWalk.position.x = characterWalk.position.x+0.03;
 			characterIdle.position.x = characterIdle.position.x+0.03;
 			
 
 			
-			//character.rotation.y += 1
+			characterWalk.rotation.y += 1
+			characterIdle.rotation.y += 1
+			console.log(characterWalk.rotation);
 		}
 		if(k == D){ // rotate right
 			//position.y = posX + 80; 
@@ -312,5 +314,3 @@ function key_up(event){
   
 
 animate();
-
-extension.gitAddCommitPush;
